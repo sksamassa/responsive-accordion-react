@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.accordion {
+    margin: 5px;
+    border: .5px solid rgba(0, 0, 0, .25);
+    border-radius: 8px;
+}
+
+.accordion-section {
+    margin: 10px;
+}
+
+.accordion-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3px 12px;
+}
+
+.accordion-title {
+    letter-spacing: .5px;
+    word-spacing: .5em;
+    color: rgba(0, 0, 0, .8);
+}
+
+.accordion-content {
+    text-align: justify;
+    letter-spacing: .15em;
+    word-spacing: 5.em;
+    padding: 8px 16px;
+}
+
+.active {
+    background-color: #f1f1f1;
+    color: brown;
+    border-radius: 8px;
+}
+
